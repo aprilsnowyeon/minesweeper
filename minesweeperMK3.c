@@ -251,7 +251,7 @@ main()
 				else if (key == 'd' || key == 'f')
 					break;
 				fieldgraphic(field, flag, x, y, findmines);
-				fieldxray(field);//////////////////////////////////////////////디버그용 엿보기
+				//fieldxray(field);//////////////////////////////////////////////디버그용 엿보기 활성화
 			}
 		}
 		if (key=='d') //땅파기파트
